@@ -23,6 +23,11 @@ public class Principal {
         moto2.motor.cilindradas = "100";
         moto2.motor.velocidadeMaxima = 129.45f;
 
+        player1.soltaSuperPoder();
+        player2.soltaSuperPoder();
+
+        moto1.motor.mostraInfo();
+        moto2.motor.mostraInfo();
 
     }
 }
